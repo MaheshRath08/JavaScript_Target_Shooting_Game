@@ -22,7 +22,7 @@ body{
     border-radius: 50%;
 }
 .target{
-    background-color: aqua;
+    background-color: #00ffff;
 }
 .stats{
     display: flex;
@@ -51,7 +51,8 @@ h1{
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 15px 2px black;
-    background-color: #ebebeb;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 7%, rgba(235,235,235,1) 78%);
     color: black;
 }
 .results p{
